@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANUKA.S Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ab1e4622f.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+            <ul id="sidemenu">
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Extra</a></li>
+                <li><a href="#portofolio">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>   
+        </nav>
+        <div class="bx bxs-moon" id="d"></div>
+        
+        <div class="header-text">
+            <p>UNDERGRADUATE</p>
+            <h1>Hello, I'm <span>Chanuka</span><br>Sandun</h1>
+        </div>
+    </div>       
+</div>
+
+<div id="about">
+    <div class="container"
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/casual.jpeg" width="175" height="190" style="margin-top: 20px;">
+            </div>
+            <div class="about-col-2" style="margin-left: 20px;">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my website! I am a highly motivated individual with a strong work ethic and a passion for achieving success. I am dedicated to setting and reaching goals, and I take pride in my ability to make informed decisions and take decisive action. With my perseverance, strategic thinking, and commitment to excellence, I believe I can be a valuable asset to any team or organization. </p>
+                <style>
+                    .about-col-1 {
+                      float: left;
+                      width: 200px;
+                      margin-right: 20px;
+                    }
+                    .about-col-2 {
+                      overflow: hidden;
+                    }
+                  </style>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Talents</p>
+                    <p class="tab-links" onclick="opentab('experience')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+            <div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web page Development</li>
+                        <li><span>3D Modelling</span><br>Blender</li>
+                        <li><span>Video & Photo Editing</span><br>PhotoShop/Lightroom/Clipchamp</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Hard Working</span></li>
+                        <li><span>Team Work</span></li>
+                        <li><span>Flexibility</span></li>
+                        <li><span>Adaptability</span></li>
+                        <li><span>Emotional Intelligence</span><br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SLTC Research University</span><br>Course- BSc Hons. in IT(Cyber Security)</li>
+                        <li><span>Kekirawa Central College</span><br>2005-2019</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------Extra Curricular Activities---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Extra Curricular Activities</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-sharp fa-solid fa-hand-fist"></i>
+            <h2>CRICKET</h2>
+            <p>Being a fan of the gentlemen's game since a todler it was always the dream to play the game. I followed the dream and became an award winning alrounder during my school cricket career. <br> Always the alrounder in everything I'm a part of.</p>
+            <a href="#">Back</a>
+          </div>  
+          <div>
+            <i class="fa-solid fa-person-running"></i>
+            <h2>SOCCER</h2>
+            
+            <p>As a dedicated and good team player I played the "mid center position" which shows that I'm always ready to take up challenges and move forward</p>
+            <a href="#">Back</a>
+          </div>  
+          <div>
+            <i class="fa-sharp fa-solid fa-chess-board"></i>
+            <h2>RUGBY</h2>
+            <p>Rugger is a sport which shows that you have to be dedicated at all times and a place where your fierce nature at the only needed times.</p>
+            <a href="#">Back</a>
+          </div>  
+        </div>
+    </div>
+</div>
+<!-- ---------------------portfolio----Mywork---------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">Interests</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="images/kaali.png" style="width: 350px; height: 200px;">
+                 <div class="layer">
+                    <h3>Kali Linux</h3>
+                    <p>I am passionate about cybersecurity and ethical hacking, and I have a particular interest in Kali Linux and exploring its many tools and utilities.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/blender1.jpg" style="width: 350px; height: 200px;">
+                <div class="layer">
+                    <h3>Blender Mini Games</h3>
+                    <p>I have a passion for game development and 3D modeling, and I enjoy creating simple mini games and 3D models using Blender in my free time.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        <div class="work">
+            <img src="images/ai.jpg" style="width: 370px; height: 200px;">
+
+            <div class="layer">
+                <h3>AI</h3>
+                <p>I have a strong interest in artificial intelligence and enjoy discovering new features and learning more about the field.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+       </div>
+    </div>   
+    <a href="#" class="btn">Scroll Up</a>
+</div>
+
+
+<!----------------------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>chanuka12sandun@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+94702200735</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008713937714&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/__chanuk_a__?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/CV 2.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©. Made By Chanuka Sandun <i class="fa-solid fa-head-side-headphones"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+
+<script>
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwk42OsIorgH88I-JbmQFvyakxDKgbrKEqWZZEPhXWEqETP7hpo_8NGkXxKSCq3H_I/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""   
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
